@@ -93,7 +93,7 @@ export function CustomSelect({
         onClick={() => !disabled && setIsOpen(!isOpen)}
         disabled={disabled}
         className={cn(
-          "w-full flex items-center justify-between gap-2 px-4 py-2.5 rounded-[20px] mb-[25px]",
+          "w-full flex items-center justify-between gap-2 px-4 py-2.5 rounded-[20px] mb-[37px]",
           "text-sm text-left",
           "transition-all duration-200",
           "focus:outline-none focus:ring-2 focus:ring-violet-500/20",

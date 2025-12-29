@@ -160,7 +160,7 @@ export function MapStateSelector() {
   `
 
   return (
-    <div className="text-white rounded-xl border-0 p-3 md:p-4 lg:p-6 space-y-3 md:space-y-4 h-auto lg:h-[calc(100vh-200px)] min-h-[500px] transition-all duration-200 ease-in-out">
+    <div className="text-white rounded-xl border-0 p-3 md:p-4 lg:p-6 h-auto lg:h-[calc(100vh-200px)] min-h-[500px] transition-all duration-200 ease-in-out lg:py-7 md:space-y-8 my-[35px] mb-0 lg:pb-0">
       {/* State Selector Control */}
       <StateSelector selectedState={selectedState || ""} onStateChange={handleDropdownStateChange} />
 
@@ -168,7 +168,7 @@ export function MapStateSelector() {
       <div
         ref={mapContainerRef}
         data-slot="usa-map-container"
-        className="relative rounded-lg p-[38px] md:p-[38px] lg:p-[38px] flex-1 flex items-center justify-center [&>svg]:w-full [&>svg]:h-auto [&>svg]:max-h-[600px] overflow-hidden"
+        className="relative rounded-lg p-[38px] md:p-[38px] lg:p-[38px] flex-1 flex items-center justify-center [&>svg]:w-full [&>svg]:h-auto [&>svg]:max-h-[600px] overflow-hidden lg:pt-[30px] lg:pb-[30px]"
         style={{
           // Liquid glass container background
           background:
